@@ -17,6 +17,6 @@ or add ```"citysites/yii2-jquery-inputmask-multi": "dev-master"``` to the requir
 ## Usage
 
 ```php
-use \citysites\assets\InputmaskMultiAsset;
-InputmaskMultiAsset::register($this);// $this represents the view object
+use \citysites\assets\JqueryInputmaskMultiAsset;
+JqueryInputmaskMultiAsset::register($this);// $this represents the view object
 ```
