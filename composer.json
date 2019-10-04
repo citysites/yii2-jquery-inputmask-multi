@@ -1,12 +1,13 @@
 {
-    "name": "citysites/yii2-jquery-ui-timepicker-addon",
-    "description": "Yii2 asset for https://github.com/trentrichardson/jQuery-Timepicker-Addon",
-    "keywords": ["yii2","asset","jquery","timepicker"],
+    "name": "citysites/yii2-jquery-inputmask-multi",
+    "description": "Yii2 asset for https://github.com/andr-04/inputmask-multi",
+    "keywords": ["yii2","asset","jquery","inputmask-multi"],
     "license": "BSD-3-Clause",
     "require": {
         "yiisoft/yii2": "^2.0",
         "yiisoft/yii2-jui": "*",
-        "npm-asset/jquery-ui-timepicker-addon": "^1.6"
+        "bower-asset/inputmask-multi": "^1.2",
+        "bower-asset/jquery.bind-first": "^0.2.3"
     },
     "authors": [
         {
