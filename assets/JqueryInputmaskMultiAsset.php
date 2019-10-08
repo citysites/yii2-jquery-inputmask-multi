@@ -23,7 +23,7 @@ class JqueryInputmaskMultiAsset extends AssetBundle
      * {@inheritDoc}
      */
     public $depends = [
-        JqueryBindFirstAsset::class,
         JqueryAsset::class,
+        JqueryBindFirstAsset::class,
     ];
 }
