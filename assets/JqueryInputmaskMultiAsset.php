@@ -3,6 +3,7 @@
 namespace citysites\assets;
 
 use yii\web\AssetBundle;
+use yii\web\JqueryAsset;
 
 class JqueryInputmaskMultiAsset extends AssetBundle
 {
@@ -23,5 +24,6 @@ class JqueryInputmaskMultiAsset extends AssetBundle
      */
     public $depends = [
         JqueryBindFirstAsset::class,
+        JqueryAsset::class,
     ];
 }
